@@ -13,7 +13,7 @@ CREATE TABLE Persons (
     City varchar(255)
 );
 
---Drop
+--Drop table
 DROP TABLE table_name;
 
 --ALTER TABLE -> The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.

@@ -73,6 +73,7 @@ CREATE VIEW view_name AS SELECT column1, column2 FROM table_name WHERE condition
 --DOUBLE PRECISION(size, d)	 
 --DECIMAL(size, d)	An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the d parameter. The maximum number for size is 65. The maximum number for d is 30. The default value for size is 10. The default value for d is 0.
 --DEC(size, d)	Equal to DECIMAL(size,d)
+--UPPER(a) Convert the text to upper-case
 
 --Distinct: For distinct values
 SELECT DISTINCT column1, column2 FROM table_name;
